@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <center>
+        {{support.id}} {{support.title}}<br />
+        Créée le : {{support.createdAt|date("d/m/Y H:i:s")}}<br />
+        {{support.description}}<br />
+        <a class="btn btn-primary" href="{{path('support_list')}}">Retour à la liste</a>
+    </center>
+{% endblock %}

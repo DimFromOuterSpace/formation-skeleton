@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Mes supports :</h1>
+    <ul>
+    {% for support in supports %}
+        <li>
+            <a href="{{path('support_show',{'id':support.id})}}">
+                {{support.id}}
+                {{ support.title }}
+                {{ support.description }}
+                {{ support.createdAt | date('c') }}
+            </a>    
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

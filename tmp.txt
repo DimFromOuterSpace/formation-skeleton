@@ -1,0 +1,520 @@
+    1  sudo apt-get install xubuntu-desktop
+    2  sudo apt-get install netbeans
+    3  php
+    4  php -v
+    5  sudo pear channel-discover pear.symfony-project.com
+    6  sudo apt-get install pear
+    7  sudo apt-get install php-pear
+    8  sudo pear channel-discover pear.symfony-project.com
+    9  sudo pear install symfony/symfony
+   10  sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+   11  sudo apt-get install curl
+   12  sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+   13  chmod a+x /usr/local/bin/symfony
+   14  sudo chmod a+x /usr/local/bin/symfony
+   15  symfony new my_project
+   16  composer create-project symfony/skeleton my_project
+   17  symfony new my_project 2.8
+   18  sudo nano /etc/php/7.0/apache2/php.ini 
+   19  sudo nano /etc/php/7.0/cli/php.ini 
+   20  php my_project/app/check.php
+   21  exit
+   22  cd /etc/apache2/
+   23  ls
+   24  cd mods-enabled/
+   25  ls
+   26  cd ../sites-available/
+   27  ls
+   28  sudo nano 000-default.conf 
+   29  sudo /etc/init.d/apache2 restart
+   30  sudo nano 000-default.conf 
+   31  sudo /etc/init.d/apache2 restart
+   32  sudo nano 000-default.conf 
+   33  exit
+   34  chmod -R 755 www/
+   35  sudo nano /var/log/apache2/error.log
+   36  ls -la
+   37  sudo nano 000-default.conf 
+   38  sudo nano /etc/apache2/sites-available/000-default.conf 
+   39  sudo /etc/init.d/apache2 restart
+   40  sudo nano /etc/apache2/sites-available/
+   41  ls /etc/apache2/sites-available/
+   42  sudo nano /etc/apache2/sites-available/default-ssl.conf 
+   43  sudo /etc/init.d/apache2 restart
+   44  sudo nano /etc/apache2/sites-available/000-default.conf 
+   45  sudo /etc/init.d/apache2 restart
+   46  sudo nano /etc/apache2/sites-available/000-default.conf 
+   47  sudo /etc/init.d/apache2 restart
+   48  ls -la
+   49  chmod -R 775 www/
+   50  cd /etc/apache2/sites-
+   51  cd /etc/apache2/sites-available/
+   52  ls -la
+   53  cd ../sites-enabled/
+   54  ls -la
+   55  sudo nano /etc/apache2/sites-available/000-default.conf 
+   56  sudo /etc/init.d/apache2 restart
+   57  ls /var/www/
+   58  ls /var/www/html/
+   59  cp /var/www/html/index.html /home/osconcept/www/
+   60  mkdir /home/osconcept/www/html/
+   61  cp /var/www/html/index.html /home/osconcept/www/html/
+   62  chmod -R 755 ~/www/
+   63  nano /var/log/apache2/error.log
+   64  sudo nano /etc/apache2/sites-available/000-default.conf 
+   65  sudo /etc/init.d/apache2 restart
+   66  nano /var/log/apache2/error.log
+   67  sudo nano /etc/apache2/sites-available/000-default.conf 
+   68  sudo /etc/init.d/apache2 restart
+   69  cd ~/www/
+   70  symfony new my_project 2.8
+   71  cd my_project/
+   72  ls
+   73  chmod -R 7
+   74  chmod -R 777 app/cache/ app/logs/
+   75  rm ../index.html 
+   76  ls web/
+   77  sudo nano /etc/apache2/sites-available/000-default.conf 
+   78  sudo /etc/init.d/apache2 restart
+   79  sudo nano /etc/apache2/sites-available/000-default.conf 
+   80  sudo /etc/init.d/apache2 restart
+   81  mail 
+   82  mail dusseno@os-concept.com test
+   83  mail dusseno@os-concept.com
+   84  sudo nano /var/log/mail.log 
+   85  sudo nano /etc/php/7.0/cli/php.ini 
+   86  sudo nano /etc/php/7.0/apache2/php.ini 
+   87  sudo /etc/init.d/apache2 restart
+   88  php -r echo 'test'
+   89  php -r echo "test"
+   90  php -R echo "test"
+   91  php -R echo 'test'
+   92  php -R "echo 'test';"
+   93  php -R "<?php echo 'test';?>"
+   94  php -r "<?php echo 'test';?>"
+   95  php -r "php echo 'test';"
+   96  php -r "echo 'test';"
+   97  php -r "mail('dusseno@os-concept.com','test','test');"
+   98  sudo nano /var/log/mail.log 
+   99  sudo nano /etc/postfix/main.cf
+  100  sudo nano /var/log/mail.log 
+  101  sudo nano /etc/postfix/main.cf
+  102  sudo gedit /var/log/mail.log 
+  103  php -r "mail('dusseno@os-concept.com','test','test');"
+  104  sudo nano /var/log/mail.log 
+  105  php -r "mail('dusseno@os-concept.com','test','test');"
+  106  sudo nano /var/log/mail.log 
+  107  mail dusseno@os-concept.com
+  108  sudo nano /var/log/mail.log 
+  109  ls /var/log/
+  110  ls -la /var/log/
+  111  sudo chmod 777 /var/log/mail.log 
+  112  php -r "mail('dusseno@os-concept.com','test','test');"
+  113  sudo nano /var/log/mail.log 
+  114  mail dusseno@os-concept.com
+  115  sudo nano /var/log/mail.log 
+  116  mail
+  117  reboot
+  118  sudo nano /etc/php/7.0/cli/
+  119  cd /etc/php/7.0/cli/
+  120  ls
+  121  cd conf.d/
+  122  ls
+  123  cd ..
+  124  cd..
+  125  cd ..
+  126  ls
+  127  cd mods-available/
+  128  ls
+  129  sudp nano ../cli/php.ini 
+  130  sudo nano ../cli/php.ini 
+  131  cd ../cli/conf.d/
+  132  ls
+  133  cd /
+  134  sudo find / -name phpmyadmin
+  135  sudo apt-get install phpmyadmin
+  136  sudo ln -s /usr/share/phpmyadmin /home
+  137  sudo ln -s /usr/share/phpmyadmin /home/osconcept/www/phpmyadmin
+  138  rm /home/phpmyadmin
+  139  sudo rm /home/phpmyadmin
+  140  cd /home/osconcept/www/ohris/ohris/
+  141  sudo chmod -R 777 app/cache/ app/logs/
+  142  php app/console d:s:u --force
+  143  bin/phinx migrate
+  144  exit
+  145  sudo nano /var/log/mail.log 
+  146  php -r "mail('dusseno@os-concept.com','test','test');"
+  147  sudo nano /var/log/mail.log 
+  148  sudo nano /etc/postfix/main.cf
+  149  touch /etc/postfix/canonical
+  150  sudo touch /etc/postfix/canonical
+  151  sudo nano /etc/postfix/canonical 
+  152  sudo /etc/init.d/postfix reload
+  153  php -r "mail('dusseno@os-concept.com','test','test');"
+  154  sudo nano /var/log/mail.log 
+  155  postfix /etc/postfix/canonical
+  156  sudo postfix /etc/postfix/canonical
+  157  sudo postfix reload
+  158  sudo /etc/init.d/postfix reload
+  159  php -r "mail('dusseno@os-concept.com','test','test');"
+  160  sudo nano /var/log/mail.log 
+  161  sudo nano /etc/postfix/main.cf
+  162  sudo nano /etc/mailname 
+  163  php -r "mail('dusseno@os-concept.com','test','test');"
+  164  sudo nano /var/log/mail.log 
+  165  sudo rm /etc/postfix/canonical 
+  166  php -r "mail('dusseno@os-concept.com','test','test');"
+  167  sudo nano /var/log/mail.log 
+  168  sudo /etc/init.d/postfix reload
+  169  php -r "mail('dusseno@os-concept.com','test','test');"
+  170  sudo nano /var/log/mail.log 
+  171  php -r "mail('dusseno@os-concept.com','test','test');"
+  172  sudo nano /var/log/mail.log 
+  173  sudo nano /etc/postfix/main.cf
+  174  sudo nano /etc/php/7.0/apache2/php.ini 
+  175  sudo nano /etc/php/7.0/cli/php.ini 
+  176  sudo /etc/init.d/apache2 restart
+  177  php -r "mail('dusseno@os-concept.com','test','test');"
+  178  sudo nano /var/log/mail.log 
+  179  sudo nano /etc/postfix/main.cf
+  180  sudo /etc/init.d/postfix reload
+  181  php -r "mail('dusseno@os-concept.com','test','test');"
+  182  sudo nano /etc/postfix/main.cf
+  183  sudo /etc/init.d/postfix reload
+  184  php -r "mail('dusseno@os-concept.com','test','test');"
+  185  sudo nano /var/log/mail.log 
+  186  php -v
+  187  sudo nano /var/log/mail.log 
+  188  sudo nano /etc/postfix/main.cf
+  189  sudo dpkg-reconfigure postfix
+  190  sudo /etc/init.d/postfix reload
+  191  php -r "mail('dusseno@os-concept.com','test','test');"
+  192  sudo nano /var/log/mail.log 
+  193  sudo dpkg-reconfigure postfix
+  194  sudo nano /etc/postfix/main.cf
+  195  ifconfig
+  196  sudo /etc/init.d/networking restart
+  197  ifconfig
+  198  sudo /etc/init.d/networking restart
+  199  ifconfig
+  200  sudo dpkg-reconfigure postfix
+  201  sudo /etc/init.d/postfix reload
+  202  php -r "mail('dusseno@os-concept.com','test','test');"
+  203  cd www
+  204  mkdir ohris
+  205  cd ohris/
+  206  git clone http://hermes.os-concept.com:2443/os-concept/ohris.git
+  207  sudo apt-get install git
+  208  git clone http://hermes.os-concept.com:2443/os-concept/ohris.git
+  209  cd ohris/
+  210  ls
+  211  php composer.phar create
+  212  sudo apt-get install php-gd
+  213  sudo apt-get install php-curl
+  214  sudo apt-get install php-mbstring
+  215  sudo /etc/init.d/apache2 restart
+  216  php composer.phar create
+  217  sudo apt-get install php-mcrypt
+  218  php composer.phar create
+  219  exit
+  220  sudo apt-get remove netbeans
+  221  cd Bureau/
+  222  sh netbeans-8.2-linux.sh 
+  223  ifconfig
+  224  pear install PHP_CodeSniffer-3.2.3
+  225  php pyrus.phar install pear/PHP_CodeSniffer-3.2.3
+  226  pear
+  227  cd ~/Téléchargements/
+  228  tar -xvf PHP_CodeSniffer-3.2.3.tgz 
+  229  ls
+  230  pear install PHP_CodeSniffer-3.2.3
+  231  sudo pear install PHP_CodeSniffer-3.2.3
+  232  cd ../Bureau/
+  233  ls
+  234  cd ../www/ohris/ohris/
+  235  git checkout dev
+  236  git status
+  237  git checkout -- .gitignore
+  238  git status
+  239  git checkout dev
+  240  ifconfig
+  241  history > tmp.txt
+  242  nano tmp.txt 
+  243  php -r "mail('dusseno@os-concept.com','test','test');"
+  244  php -r "mail('dusseno@os-concept.com','ééé','ééé');"
+  245  sudo nano /etc/php/7.0/cli/
+  246  sudo nano /etc/php/7.0/cli/php.ini 
+  247  exit
+  248  cd www
+  249  ls
+  250  composer -v
+  251  php -v
+  252  sudo apt install composer
+  253  composer -v
+  254  clear
+  255  composer -v
+  256  composer self-update
+  257  composer -self-update
+  258  sudo composer self-update
+  259  sudo apt-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  260  php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  261  php composer-setup.php
+  262  sudo apt purge composer
+  263  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  264  php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  265  php composer-setup.php
+  266  php -r "unlink('composer-setup.php');"
+  267  ls
+  268  ls -la
+  269  php composer.phar -v
+  270  ls -la composer.phar 
+  271  php composer.phar self-update
+  272  RUN curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=/usr/local/bin
+  273  curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=/usr/local/bin
+  274  sudo curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=/usr/local/bin
+  275  ls -la /usr/local/
+  276  sudo curl -sS https://getcomposer.org/installer | sudo php -- --filename=composer --install-dir=/usr/local/bin
+  277  composer -v
+  278  ls /usr/local/bin/
+  279  /usr/local/bin/composer -v
+  280  composer -v
+  281  composer
+  282  cd www
+  283  cd my-project2/
+  284  git status
+  285  git add .
+  286  git status
+  287  git add .
+  288  git status
+  289  mv nbproject/ nbproject-old/
+  290  git status
+  291  mv nbproject-old/ nbproject/
+  292  git status
+  293  mv nbproject/ nbproject-old/
+  294  git add .
+  295  git status
+  296  mv nbproject-old/ nbproject/
+  297  git status
+  298  git add .
+  299  git status
+  300  php bin/console 
+  301  sf
+  302  composer req maker --dev
+  303  php bin/console 
+  304  php bin/console make:controller Article
+  305  php bin/console make:controller
+  306  composer require annotations
+  307  php bin/console make:controller
+  308  php console debug
+  309  php bin/console debug
+  310  php bin/console debug:router
+  311  composer req twig
+  312  php bin/console deb:rou
+  313  node
+  314  npm
+  315  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  316  sudo apt-get install nodejs
+  317  node -v
+  318  npm -v
+  319  composer req webpack asset
+  320  composer req encore asset
+  321  npm install
+  322  npm i bootstrap
+  323  ls
+  324  ./package.json 
+  325  sudo ./package.json 
+  326  ./node_modules/.bin/
+  327  ./node_modules/.bin/encore 
+  328  ./node_modules/.bin/encore dev
+  329  npm run dev
+  330  npm remove bootstrap
+  331  nmp install bootstrap-sass --dev
+  332  npm install bootstrap-sass --dev
+  333  npmremove bootstrap-sass
+  334  npm remove bootstrap-sass
+  335  npm install bootstrap
+  336  ./node_modules/.bin/encore dev
+  337  npm sass-loader node-sass --dev
+  338  npm i sass-loader node-sass --dev
+  339  npm sass-loader node-sass --dev
+  340  history
+  341  npm install bootstrap
+  342  npm run dev
+  343  npm run watch
+  344  php bin/console --env=dev c:c
+  345  npm run watch
+  346  ping crm.os-concept.org
+  347  ssh os-concept@wolverine.os-concept.com
+  348  composer req orm
+  349  composer unpack orm
+  350  php bin/console 
+  351  php bin/console doctrine
+  352  php bin/console doctrine:database:create
+  353  clear
+  354  php bin/console doctrine:database:create
+  355  mysqladmin -u root password '324qre'
+  356  mysqladmin -u root -p324qre#password '324qre'
+  357  mysqladmin -u root -p324qre# password '324qre'
+  358  php bin/console doctrine:database:create
+  359  ysqladmin -u root -p324qre password '324qre#'
+  360  mysqladmin -u root -p324qre password '324qre#'
+  361  clear
+  362  php bin/console doctrine:database:create
+  363  php -r "echo urlencode('324qre#');"
+  364  mysqladmin -u root -p324qre# password '324qre'
+  365  php bin/console doctrine:database:create
+  366  php bin/console doctrine:database:drop --force
+  367  php bin/console doctrine:database:cr
+  368  clear
+  369  php bin/console make:entity
+  370  clear
+  371  php bin/console do:sc:va
+  372  php bin/console do:sc:up
+  373  php bin/console do:sc:up --dump-
+  374  php bin/console do:sc:up --dump-sql
+  375  php bin/console doctrine:migrations:diff
+  376  php bin/console doctrine:migrations:mi
+  377  php bin/console do:da:dr --force
+  378  php bin/console doctrine:database:cr
+  379  php bin/console make:entity
+  380  php bin/console doctrine:database:cr
+  381  clear
+  382  php bin/console doctrine:sc:va
+  383  php bin/console doctrine:migrations:diff
+  384  php bin/console doctrine:migrations:mi
+  385  php bin/console make:controller
+  386  composer req debug
+  387  git status
+  388  git add .
+  389  git commit "Article et support"
+  390  git commit -m "Article et support"
+  391  git status
+  392  git log
+  393  composer
+  394  composer -v
+  395  cd ./www/
+  396  clear
+  397  composer create-project symfony/website-skeleton my-project
+  398  ls7
+  399  ls
+  400  composer self-update
+  401  composer create-project "symfony/website-skeleton^4.0" my-project
+  402  composer create-project "symfony/website-skeleton:^4.0" my-project
+  403  clear
+  404  ls
+  405  cd my-project/
+  406  ls
+  407  composer create-project "symfony/skeleton" my-project2
+  408  ls
+  409  cd ./my-project2/
+  410  rm -rf .
+  411  cd ..
+  412  rm -rf ./my-project2/
+  413  ls -la
+  414  cd ..
+  415  composer create-project "symfony/skeleton" my-project2
+  416  ls
+  417  cd my-project
+  418  ls
+  419  cd ../my-project2/
+  420  ls
+  421  cd public/
+  422  cd ..
+  423  php -S 127.0.0.1:8000 -t public
+  424  ssh os-concept@wolverine.os-concept.com
+  425  clear
+  426  sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+  427  sudo chmod a+x /usr/local/bin/symfony
+  428  symfony 
+  429  symfony new project_3_4
+  430  cd www
+  431  symfony new project_3_4 3.4
+  432  ls
+  433  cd project_3_4/
+  434  ls
+  435  cd ..
+  436  git clone https://github.com/symfony/demo.git demo_symfony
+  437  ls
+  438  cd demo_symfony/
+  439  ls
+  440  bin/console 
+  441  composer install
+  442  sudo apt-get install php-pdo_sqlite
+  443  sudo apt-get install php-ext-pdo_sqlite
+  444  sudo apt-get install pdo_mysql
+  445  sudo apt-get install pdo
+  446  sudo apt-get install php-pdo_mysql
+  447  sudo apt-get install php-pdo-mysql
+  448  sudo ls /opt/
+  449  sudo apt-get install php-pdo-sqlite
+  450  sudo /etc/init.d/apache2 restart
+  451  clear
+  452  composer install
+  453  php -i | grep sql
+  454  rm -r vendor/
+  455  composer install 
+  456  php -v
+  457  more composer.json 
+  458  clear
+  459  cd ..
+  460  git clone https://github.com/DimFromOuterSpace/formation-skeleton.git
+  461  ls
+  462  cd formation-skeleton/
+  463  composer install
+  464  clear
+  465  composer install
+  466* 
+  467  touch ./bash_aliases
+  468  touch ~/.bash_aliases
+  469  sudo nano ~/.bash_aliases 
+  470  sf 
+  471  source ~/.bash_rc
+  472  source ~/.bashrc
+  473  sf
+  474  sf do:da:cre --force
+  475  sf do:da:cre
+  476  sf do:mi:mi
+  477  npm run dev
+  478  npm install
+  479  npm run dev
+  480  compose req orm-fixtures
+  481  compose req doctrine/doctrine-fixtures-bundle
+  482  composer req doctrine/doctrine-fixtures-bundle
+  483  composer remove doctrine/doctrine-fixtures-bundle
+  484  composer req --dev doctrine/doctrine-fixtures-bundle
+  485  sf doctrine:fixtures:load
+  486  sf doctrine:fixture:load
+  487  sf maker
+  488  sf make:fixtures
+  489  sf doctrine:fixture:load
+  490  sf doctrine:fixture:load7
+  491  sf doctrine:fixture:load
+  492  clear
+  493  sf doctrine:fixture:load
+  494  composer req server
+  495  sf php
+  496  clear
+  497  sf
+  498  sf server:stop
+  499  clear
+  500  sf server:start
+  501  composer remove server
+  502  composer req server --Database Queriesdev
+  503  composer req server --dev
+  504  sf do:mi:mi
+  505  sf do:da:cre
+  506  clear
+  507  sf do:mi:mi
+  508  sf do:sc:va
+  509  clear
+  510  sf do:sc:va
+  511  php bin/console doctrine:migrations:diff
+  512  sf do:mi:mi
+  513  php bin/console doctrine:da:dr --force && sf do:da:cr && sf do:mi:mi --no-interaction && sf do:fi:lo --no-interaction
+  514  sf c:c
+  515  sf do:da:cre
+  516  clez
+  517* 
+  518  sf make:fixtures
+  519  sf make
+  520  history > tmp.txt
